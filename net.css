@@ -1,0 +1,93 @@
+.header{
+	width: 1300px;height: 100px; background-color: aquamarine;
+	
+}
+.header,.nav,.banner,.news,.money,.teacher,.footer{
+	width:1300px;
+}
+*{
+	margin: 0%; padding: 0%;
+}
+/*  
+共用的版心
+*/
+
+.main{
+	width:1100px;
+	margin:0 auto;
+	/* 让宽度1100在宽度1300范围内水平居中 */
+}
+/* 加这个的目的是为了让所有标签的间距为0 */
+.nav{
+	width: 1300px; height: 59px; background-color: #2e2e2e;
+}
+.banner{
+	width: 1300px; height: 431px; background-color: #a4279d;
+}
+.news{
+	width: 1300px; height:250px; background-color: #f5f5f5;
+}
+.money{
+	width: 1300px; height:288px; background-color: grey;
+}
+.teacher{
+	width: 1300px; height:416px; background-color: cadetblue;
+}
+.footer{
+	width: 1300px; height:125px; background-color: darkblue;
+}
+/* 注意事项
+	数字要加单位（比如px）,0可以不加
+	class命名不要写错
+ */
+
+/* 版心调用之后，加 宽，高，背景，颜色，浮动等等*/
+/* .header h1 后代选择器 */
+.header h1{
+	width: 205px; height:100px; background-color: red;
+	float: left;
+}
+.header form{
+	width: 297px;height: 100px; background-color: green;
+	float: right;
+}
+.nav li{
+	float: left; width: 119px; height: 59px;
+	background-color: yellowgreen;
+}
+.news-left{
+	width: 514px;height: 250px;background-color: red;
+	float: left;
+}
+.news-center{
+	width: 346px;height: 250px;background-color: blue;
+	float: left;
+}
+.news-right{
+	width: 240px;height: 250px;background-color: green;
+	float: left;
+}
+.img{
+	width: 300px;height:288px;background-color: darkblue;
+	float: left
+}
+.txt{
+	width: 800px;height: 288px;background-color: antiquewhite;
+	float: left;	
+}
+.tutorial-01{
+	width: 275px;height: 416px; background-color: lightcoral;
+	float: left;
+}
+.tutorial-02{
+	width: 275px;height: 416px; background-color: orangered;
+	float: left;
+}
+.tutorial-03{
+	width: 275px;height: 416px; background-color: lightgreen;
+	float: left;
+}
+.tutorial-04{
+	width: 275px;height: 416px; background-color: lightcoral;
+	float: left;
+}
